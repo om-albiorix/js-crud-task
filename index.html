@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-CRUD Task</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-main border p-4 w-50">
+        <h3 class="text-center">Registration Form</h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="font-weight-bolder"
+              >Firstname</label
+            >
+            <input
+              type="name"
+              class="form-control"
+              id="inputfname"
+              placeholder="Enter firstname"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputlname" class="font-weight-bolder"
+              >Lastname</label
+            >
+            <input
+              type="name"
+              class="form-control"
+              id="inputlname"
+              placeholder="Enter Lastname"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="font-weight-bolder"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="inputemailadd"
+              placeholder="Enter Email Address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="font-weight-bolder"
+              >Date of Birth</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputdateofbirth"
+              placeholder="Enter Date of Birth"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="font-weight-bolder"
+              >Mobile no.</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="inputmobile"
+              placeholder="Enter Date of Birth"
+            />
+          </div>
+          <button
+            onclick="handleSubmit(event)"
+            class="btn btn-primary d-flex justify-content-center m-auto"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
